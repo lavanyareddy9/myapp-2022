@@ -8,7 +8,7 @@ pipeline{
         }
         stage("maven"){
             steps{
-                sh 'hey ankith
+                echo ('hey ankith')
             }
         }
     }
